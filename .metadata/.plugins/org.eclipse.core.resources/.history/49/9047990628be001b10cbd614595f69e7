@@ -1,0 +1,12 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExemploDo {
+
+	public static void main(String[] args) {
+		
+		String nome = JOptionPane.showInputDialog("Digite o nome: ").toUpperCase();
+		
+	}
+}

@@ -1,0 +1,33 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 *  Exercicio 4:
+		 * Receba três números inteiros e coloque-os em ordem numérica
+		 * crescente. Garanta que os três números sejam diferentes.
+		 */
+		byte numero1 = Byte.parseByte(JOptionPane.showInputDialog("Numero 1: "));
+		byte numero2 = Byte.parseByte(JOptionPane.showInputDialog("Numero 2: "));
+		byte numero3 = Byte.parseByte(JOptionPane.showInputDialog("Numero 3: "));
+		
+		if (numero1 > numero2 && numero1 > numero3 && numero2 > numero3) {
+			System.out.println("Ordem dos números: " +numero1 +numero2 +numero3);
+			
+		}else if (numero2 > numero1 && numero2 > numero3 && numero1 > numero3) {
+			System.out.println("Ordem dos números: " +numero2 +numero1 +numero3);
+			
+		}else if numero3 > numero1 && numero3 > numero2 && numero1 > numero2) {
+			System.out.println("Ordem dos números: " +numero3 +numero1 +numero2);
+			
+		}else
+			System.out.println("Números OK ");
+		}
+	
+	}
+
+

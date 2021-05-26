@@ -1,0 +1,18 @@
+package repeticao;
+
+public class Exercicio3 {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Exercicio 3
+		 * Solicite ao usuário (enquanto ele quiser) o cargo e o salario do cargo
+		 * No final, exiba:
+		 * Total de salarios
+		 * média
+		 * o maior valor entre todos os salarios digitados com o cargo
+		 * 
+		 */
+	}
+
+}

@@ -1,0 +1,41 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio3 {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Exercicio 3
+		 * Solicite ao usuário (enquanto ele quiser) o cargo e o salario do cargo
+		 * No final, exiba:
+		 * Total de salarios
+		 * média
+		 * o maior valor entre todos os salarios digitados com o cargo
+		 * 
+		 */
+		
+
+		String cargo="";
+		float salario=0;
+		float total=0;
+		float qntcargos=0;
+		float maiorsalario=0;
+		String maiorcargo="";
+						
+		do {
+			cargo = JOptionPane.showInputDialog("Cargo").toUpperCase();
+			salario = Float.parseFloat(JOptionPane.showInputDialog("Salario"));
+			total+=salario; //total = total + salario
+			qntcargos++;
+						
+		}while(JOptionPane.showConfirmDialog(null, "Continuar?", "Pergunta", JOptionPane.YES_NO_OPTION)==0);
+		
+		//System.out.println(nome + " o total das suas compras é:  " + totalGlobal);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package repeticao;
+
+public class ExemploFor {
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * Sintaxe do for
+		 * 1a variavel que vai contar
+		 * 2o condição
+		 * 3o como ele vai contar?
+		 * 
+		 */
+		
+		for (int contador=0;contador<=20;contador+=1) {
+			System.out.println(contador);
+		}
+	}
+
+}
